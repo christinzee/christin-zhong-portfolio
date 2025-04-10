@@ -16,8 +16,8 @@ export const useActiveHome = (sectionIds = []) => {
         });
       },
       {
-        rootMargin: "20% 0% 20% 0%",
-        threshold: 1,
+        rootMargin: "10% 0% 10% 0%",
+        threshold: 0.9,
       }
     );
 
