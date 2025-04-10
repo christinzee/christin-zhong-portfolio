@@ -13,11 +13,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${mulish.variable} antialiased`}>
-        <div className="w-screen h-screen flex justify-center items-center p-8">
-          <div className="w-full h-full border-1 border-(--comment) overflow-hidden flex justify-center">
-            <div className="w-3/4 h-full overflow-auto pt-[72px] ">{children}</div>
+    <html lang="en" className="h-full">
+      <link rel="icon" href="/favicon.svg" sizes="any" />
+      <body className={`${mulish.variable} antialiased h-full`}>
+        <div className="w-full h-full flex justify-center items-center p-8">
+          <div className="w-full h-full border-1 border-(--comment) flex justify-center">
+            <div className="content h-full max-w-screen py-18 px-8 overflow-hidden ">
+              {children}
+            </div>
           </div>
         </div>
       </body>

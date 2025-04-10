@@ -5,7 +5,9 @@
   --foreground: #282a36;
   --selection: #44475a;
   --comment: #6272a4;
-  --body: #9aa4c5;
+  --body: #b4bddb;
+  --header: #dce1f5;
+  --subheader: #9aa4c5;
   --pink: #ff79c6;
   --purple: #bd93f9;
   --cyan: #8be9fd;
@@ -28,8 +30,26 @@
   }
 }
 
+html,
 body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-mulish-sans, Mulish, Arial, Helvetica, sans-serif);
+}
+
+.scrollbar-hide {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.yarl__root {
+  --yarl__color_backdrop: #282a36cc;
 }
