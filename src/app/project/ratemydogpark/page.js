@@ -9,15 +9,15 @@ export default function Home() {
           <a href="/" className="hover:underline hover:decoration-(--body)">
             <p className="text-sm text-(--body)">&#8592; Home</p>
           </a>
-          <h1 className="font-bold text-4xl text-(--cyan) pt-8">
+          <h1 className="font-bold text-3xl lg:text-4xl text-(--cyan) pt-8">
             Rate My Dog Park
           </h1>
           <p className="dates text-xs text-(--subheader) pt-4">
             2025 - PRESENT
           </p>
-          <div className="details flex items-center gap-2 pt-4">
+          <div className="details flex flex-col lg:flex-row lg:items-center gap-2 pt-4">
             <p className="text-md text-(--orange)">Design & Development</p>
-            <span className="w-px h-4 my-auto bg-(--orange)/50"></span>
+            <span className="hidden lg:block w-px h-4 my-auto bg-(--orange)/50"></span>
 
             <a
               href="https://www.ratemydogpark.com"
@@ -47,7 +47,7 @@ export default function Home() {
             guardianship — the quality and safety of public dog parks.
           </p>
 
-          <div className="pt-6 flex gap-6">
+          <div className="pt-6 flex gap-3 lg:gap-6">
             {["Next.js", "Firebase", "Tailwind"].map((tech) => (
               <span
                 key={tech}

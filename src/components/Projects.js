@@ -17,7 +17,7 @@ export const Projects = () => {
         <div className="relative z-20 pointer-events-none">
           <p className="dates text-xs text-(--subheader)">2025 - PRESENT</p>
           <div className="flex items-center gap-2 ">
-            <h1 className="font-bold text-4xl text-(--cyan) pt-4">
+            <h1 className="font-bold text-3xl lg:text-4xl text-(--cyan) pt-4">
               Rate My Dog Park
             </h1>
             <svg
@@ -38,9 +38,9 @@ export const Projects = () => {
             </svg>
           </div>
 
-          <div className="details flex items-center gap-2 pt-4">
+          <div className="details flex flex-col lg:flex-row lg:items-center gap-2 pt-4">
             <p className="text-md text-(--orange)">Design & Development</p>
-            <span className="w-px h-4 my-auto bg-(--orange)/50"></span>
+            <span className="hidden lg:block w-px h-4 my-auto bg-(--orange)/50"></span>
             <p className="text-md text-(--orange) flex items-center gap-1">
               www.ratemydogpark.com
             </p>
@@ -54,7 +54,7 @@ export const Projects = () => {
             reviews, and see insights from other dog parents.
           </p>
 
-          <div className="pt-6 flex gap-6">
+          <div className="pt-6 flex gap-3 lg:gap-6">
             {["Next.js", "Firebase", "Tailwind"].map((tech) => (
               <span
                 key={tech}
