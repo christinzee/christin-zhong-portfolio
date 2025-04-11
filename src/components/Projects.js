@@ -21,7 +21,7 @@ export const Projects = () => {
               Rate My Dog Park
             </h1>
             <svg
-              className="size-8"
+              className="size-6 lg:size-8"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
