@@ -1,6 +1,6 @@
 export const Projects = () => {
   return (
-    <section id="projects" className="project mt-18">
+    <section id="projects" className="project mt-18 lg:mt-38">
       <h1 className="text-sm text-(--header) font-bold px-4 lg:px-8 lg:hidden">
         PROJECTS
       </h1>
