@@ -7,11 +7,11 @@ export const Profile = () => {
       <img
         src="avatar.jpg"
         alt="profile picture"
-        className="size-[88px] rounded-full"
+        className="size-[60px] lg:size-[88px] rounded-full"
       ></img>
       <div className="bio h-full flex flex-col justify-between">
         <div>
-          <h1 className="text-5xl text-(--purple) font-extrabold">
+          <h1 className="text-4xl lg:text-5xl text-(--purple) font-extrabold">
             Christin Zhong
           </h1>
           <h2 className="text-lg text-(--pink) font-bold pt-4">
@@ -21,7 +21,7 @@ export const Profile = () => {
             I build impactful, user-focused web experiences that prioritize
             design, usability, and seamless functionality.
           </p>
-          <div className="skills pt-14 space-y-3 pb-12 lg:pb-0">
+          <div className="skills pt-8 lg:pt-14 space-y-3 pb-12 lg:pb-0">
             <div className="skills-frontend flex gap-3">
               <svg
                 className="size-6"

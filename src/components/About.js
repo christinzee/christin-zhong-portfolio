@@ -1,6 +1,9 @@
 export const About = () => {
   return (
-    <section id="about" className="about flex flex-col gap-4 px-8 mb-36 mt-24 lg:mt-0">
+    <section
+      id="about"
+      className="about flex flex-col gap-4 px-8 mb-36 mt-24 lg:mt-0"
+    >
       <h1 className="text-sm text-(--header) font-bold lg:hidden">ABOUT</h1>
       <p className="text-md text-(--body)">
         I’m all about creating intuitive, impactful web experiences. My journey
