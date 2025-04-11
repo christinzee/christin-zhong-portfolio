@@ -1,7 +1,10 @@
 export const Projects = () => {
   return (
     <section id="projects" className="project mt-18">
-      <div className="relative group transition-all hover:bg-(--selection)/30 p-8 rounded-sm overflow-hidden">
+      <h1 className="text-sm text-(--header) font-bold px-8 lg:hidden">
+        PROJECTS
+      </h1>
+      <div className="relative group transition-all lg:hover:bg-(--selection)/30 p-8 rounded-sm overflow-hidden">
         {/* clickable overlay (COVERS ENTIRE DIV) */}
         <a
           href="/project/ratemydogpark"
@@ -13,9 +16,27 @@ export const Projects = () => {
 
         <div className="relative z-20 pointer-events-none">
           <p className="dates text-xs text-(--subheader)">2025 - PRESENT</p>
-          <h1 className="font-bold text-4xl text-(--cyan) pt-4">
-            Rate My Dog Park
-          </h1>
+          <div className="flex items-center gap-2 ">
+            <h1 className="font-bold text-4xl text-(--cyan) pt-4">
+              Rate My Dog Park
+            </h1>
+            <svg
+              className="size-8"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m0 0h24v24h-24z"
+                fill="#8be9fd"
+                opacity="0"
+                transform="matrix(-1 0 0 -1 24 24)"
+              />
+              <path
+                d="m18 7.05a1 1 0 0 0 -1-1l-8-.05a1 1 0 0 0 0 2h5.56l-8.27 8.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l8.29-8.29v5.58a1 1 0 0 0 1 1 1 1 0 0 0 1-1z"
+                fill="#8be9fd"
+              />
+            </svg>
+          </div>
 
           <div className="details flex items-center gap-2 pt-4">
             <p className="text-md text-(--orange)">Design & Development</p>

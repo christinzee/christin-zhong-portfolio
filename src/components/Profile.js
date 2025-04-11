@@ -3,11 +3,11 @@ import { Socials } from "./Socials";
 
 export const Profile = () => {
   return (
-    <div className="profile flex gap-6 h-full px-8">
+    <div className="profile flex flex-col lg:flex-row gap-6 h-full px-8">
       <img
         src="avatar.jpg"
         alt="profile picture"
-        className="h-[88px] rounded-full"
+        className="size-[88px] rounded-full"
       ></img>
       <div className="bio h-full flex flex-col justify-between">
         <div>
@@ -21,7 +21,7 @@ export const Profile = () => {
             I build impactful, user-focused web experiences that prioritize
             design, usability, and seamless functionality.
           </p>
-          <div className="skills pt-14 space-y-3">
+          <div className="skills pt-14 space-y-3 pb-12 lg:pb-0">
             <div className="skills-frontend flex gap-3">
               <svg
                 className="size-6"

@@ -22,7 +22,7 @@ export const ProjectNav = () => {
   ];
 
   return (
-    <div className="mt-30">
+    <div className="mt-30 hidden lg:block">
       <ul>
         {links.map(({ id, label }) => {
           const isActive = active === id;

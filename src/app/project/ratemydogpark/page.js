@@ -3,8 +3,8 @@ import ZoomImageWrapper from "@/components/ZoomImageWrapper";
 
 export default function Home() {
   return (
-    <div className="flex justify-between h-full max-w-screen-xl overflow-y-auto scrollbar-hide smooth-scroll ">
-      <header className="sticky top-0 flex flex-col w-[48%] h-full px-8">
+    <div className="flex flex-col lg:flex-row justify-between h-full lg:max-w-screen-xl overflow-y-auto scrollbar-hide smooth-scroll ">
+      <header className="lg:sticky top-0 flex flex-col lg:w-[48%] h-full px-8">
         <div className="h-full flex flex-col">
           <a href="/" className="hover:underline hover:decoration-(--body)">
             <p className="text-sm text-(--body)">&#8592; Home</p>
@@ -61,7 +61,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="w-[48%] text-(--body) flex flex-col gap-8">
+      <main className="lg:w-[48%] px-8 pt-16 lg:pt-0 text-(--body) flex flex-col gap-8">
         <div id="problem" className="space-y-4">
           <h1 className="text-(--header) text-2xl font-bold">
             Understanding the Problem
@@ -207,7 +207,7 @@ export default function Home() {
           />
         </div>
 
-        <div id="future" className="space-y-4 pb-80">
+        <div id="future" className="space-y-4 lg:pb-80">
           <h1 className="text-(--header) text-2xl font-bold">What’s Next</h1>
           <p>
             This was the first time I built a full product end-to-end that

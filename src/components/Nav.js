@@ -11,7 +11,7 @@ export const Nav = () => {
   ];
 
   return (
-    <div className="mt-30">
+    <div className="hidden lg:block mt-30">
       <ul>
         {links.map(({ id, label }) => {
           const isActive = active === id;
