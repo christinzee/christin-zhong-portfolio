@@ -21,7 +21,7 @@ export const Profile = () => {
             I build impactful, user-focused web experiences that prioritize
             design, usability, and seamless functionality.
           </p>
-          <div className="skills pt-8 lg:pt-14 space-y-3 pb-12 lg:pb-0">
+          <div className="skills pt-8 lg:pt-14 space-y-3 pb-8 lg:pb-0">
             <div className="skills-frontend flex gap-3">
               <svg
                 className="size-6"

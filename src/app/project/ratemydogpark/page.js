@@ -4,7 +4,7 @@ import ZoomImageWrapper from "@/components/ZoomImageWrapper";
 export default function Home() {
   return (
     <div className="flex flex-col lg:flex-row justify-between h-full lg:max-w-screen-xl overflow-y-auto scrollbar-hide smooth-scroll ">
-      <header className="lg:sticky top-0 flex flex-col lg:w-[48%] h-full px-8">
+      <header className="lg:sticky lg:top-0 flex flex-col lg:w-[48%] h-full px-8">
         <div className="h-full flex flex-col">
           <a href="/" className="hover:underline hover:decoration-(--body)">
             <p className="text-sm text-(--body)">&#8592; Home</p>
