@@ -17,7 +17,7 @@ export const Projects = () => {
         <div className="relative z-20 pointer-events-none">
           <p className="dates text-xs text-(--subheader)">2025 - PRESENT</p>
           <div className="flex items-center gap-2 ">
-            <h1 className="font-bold text-3xl lg:text-4xl text-(--cyan) pt-4">
+            <h1 className="font-bold text-2xl lg:text-4xl text-(--cyan) pt-4">
               Rate My Dog Park
             </h1>
             <svg
