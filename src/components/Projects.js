@@ -1,10 +1,10 @@
 export const Projects = () => {
   return (
     <section id="projects" className="project mt-18">
-      <h1 className="text-sm text-(--header) font-bold px-8 lg:hidden">
+      <h1 className="text-sm text-(--header) font-bold px-4 lg:px-8 lg:hidden">
         PROJECTS
       </h1>
-      <div className="relative group transition-all lg:hover:bg-(--selection)/30 p-8 rounded-sm overflow-hidden">
+      <div className="relative group transition-all lg:hover:bg-(--selection)/30 p-4 lg:p-8 rounded-sm overflow-hidden">
         {/* clickable overlay (COVERS ENTIRE DIV) */}
         <a
           href="/project/ratemydogpark"
@@ -17,7 +17,7 @@ export const Projects = () => {
         <div className="relative z-20 pointer-events-none">
           <p className="dates text-xs text-(--subheader)">2025 - PRESENT</p>
           <div className="flex items-center gap-2 ">
-            <h1 className="font-bold text-2xl lg:text-4xl text-(--cyan) pt-4">
+            <h1 className="font-bold text-3xl lg:text-4xl text-(--cyan) pt-4">
               Rate My Dog Park
             </h1>
             <svg
