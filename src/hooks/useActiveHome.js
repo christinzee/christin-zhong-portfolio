@@ -17,7 +17,7 @@ export const useActiveHome = (sectionIds = []) => {
       },
       {
         rootMargin: "10% 0% 10% 0%",
-        threshold: 0.9,
+        threshold: 0.6,
       }
     );
 

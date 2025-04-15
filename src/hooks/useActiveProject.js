@@ -16,8 +16,8 @@ export const useActiveProject = (sectionIds = []) => {
         });
       },
       {
-        rootMargin: '50% 0% 50% 0%',
-        threshold: .8,
+        rootMargin: "-20% 0% -20% 0%",
+        threshold: 0.5,
       }
     );
 

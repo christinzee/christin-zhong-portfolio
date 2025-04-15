@@ -47,7 +47,7 @@ export default function Home() {
             guardianship — the quality and safety of public dog parks.
           </p>
 
-          <div className="pt-6 flex gap-3 lg:gap-6">
+          <div className="pt-6 flex gap-3 lg:gap-4 xl:gap-5">
             {["Next.js", "Firebase", "Tailwind"].map((tech) => (
               <span
                 key={tech}

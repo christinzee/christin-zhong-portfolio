@@ -2,7 +2,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="about flex flex-col gap-4 px-4 lg:px-8 lg:mt-0"
+      className="about flex flex-col gap-4 px-4 lg:px-8 lg:mt-0 lg:pb-38"
     >
       <h1 className="text-sm text-(--header) font-bold lg:hidden">ABOUT</h1>
       <p className="text-md text-(--body)">
