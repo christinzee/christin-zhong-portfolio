@@ -53,6 +53,10 @@ export const Projects = () => {
             centralized platform for dog park information, allowing users to
             search parks by location, view detailed park profiles, leave
             reviews, and see insights from other dog parents.
+
+            Designed and deployed a full-stack web application allowing users to discover, rate, and review local dog parks
+Built reusable components using React and Next.js; implemented user authentication and data storage with Firebase
+Integrated Google Maps API for interactive location searches; prioritized accessibility and mobile-first design
           </p>
 
           <div className="pt-6 flex gap-3 lg:gap-4 xl:gap-5">

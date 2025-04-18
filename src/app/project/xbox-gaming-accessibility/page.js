@@ -46,7 +46,7 @@ export default function Home() {
           </h1>
           <p>
             Many players face barriers when engaging with modern video
-            games—whether due to visual, auditory, motor, or cognitive
+            games-whether due to visual, auditory, motor, or cognitive
             impairments. While accessibility has improved in recent years, it's
             often limited to surface-level settings or workarounds. This project
             aimed to explore how AI could offer deeper, real-time accessibility
@@ -55,7 +55,7 @@ export default function Home() {
           <p>
             Our team was set out to build a prototype that reimagined the Xbox
             experience to showcase how adaptive, AI-powered features could
-            transform the way players interact with consoles—making games more
+            transform the way players interact with consoles-making games more
             playable, enjoyable, and inclusive for all.
           </p>
 
@@ -74,8 +74,8 @@ export default function Home() {
             I was solely responsible for building the Xbox dashboard frontend
             interface. The goal was to recreate the visual layout and flow of
             the original Xbox home screen using React and CSS, while also
-            prototyping how conceptual AI accessibility features—such as voice
-            navigation, simplified menus, and assistive overlays—might be
+            prototyping how conceptual AI accessibility features-such as voice
+            navigation, simplified menus, and assistive overlays-might be
             surfaced through the UI.
           </p>
           <p>
@@ -98,7 +98,7 @@ export default function Home() {
           <p>
             I also developed placeholder components for conceptual accessibility
             features such as voice-activated menu buttons and assistive
-            overlays—designed strictly from a UI presentation layer, to support
+            overlays-designed strictly from a UI presentation layer, to support
             future backend integrations by the team.
           </p>
         </div>
@@ -127,7 +127,7 @@ export default function Home() {
           </p>
           <p>
             This project helped refine my frontend architecture, UI replication,
-            and accessibility implementation skills—especially in designing
+            and accessibility implementation skills-especially in designing
             interfaces that anticipate broader, real-world use cases.
           </p>
         </div>

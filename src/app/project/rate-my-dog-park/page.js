@@ -44,7 +44,7 @@ export default function Home() {
             dog owners find, review, and rate local dog parks based on real user
             experiences. The platform acts as a community-driven resource that
             brings transparency to what’s often an overlooked aspect of pet
-            guardianship — the quality and safety of public dog parks.
+            guardianship - the quality and safety of public dog parks.
           </p>
 
           <div className="pt-6 flex gap-3 lg:gap-4 xl:gap-5">
@@ -72,14 +72,14 @@ export default function Home() {
             scattered, often outdated, and usually don’t tell you much beyond
             location. Is the park fenced? Is there water access? Are aggressive
             dogs a problem there? These are the details that matter to dog
-            owners — and they’re rarely centralized in one place.
+            owners - and they’re rarely centralized in one place.
           </p>
           <p>
             The idea for Rate My Dog Park came from wanting to solve that exact
             problem. I envisioned a space where the dog-owning community could
             share honest, useful feedback with each other. By giving users a
             place to rate parks and read trusted reviews, the platform empowers
-            people to make informed decisions about where they take their dogs —
+            people to make informed decisions about where they take their dogs -
             and helps avoid bad experiences.
           </p>
 
@@ -103,7 +103,7 @@ export default function Home() {
           </p>
           <p>
             One of the most important goals for me was creating a seamless user
-            experience. I started by mapping out user journeys — from
+            experience. I started by mapping out user journeys - from
             discovering the site for the first time, to searching for a park in
             a new neighborhood, to leaving a thoughtful review after a great (or
             not-so-great) visit. That UX thinking shaped the core flow of the
@@ -123,8 +123,8 @@ export default function Home() {
           <p>
             The platform is built with Next.js, using Tailwind CSS for styling
             and layout. I integrated Firebase Authentication so users can log in
-            seamlessly via Google. All user-generated content — from reviews to
-            submitted parks — is stored in Firestore, which allows for real-time
+            seamlessly via Google. All user-generated content - from reviews to
+            submitted parks - is stored in Firestore, which allows for real-time
             updates.
           </p>
           <p>
@@ -136,7 +136,7 @@ export default function Home() {
           <p>
             To prevent spam and ensure quality content, I also added a
             moderation layer. Parks submitted by users don’t immediately go live
-            — they enter a pending state in Firestore where an admin can approve
+            - they enter a pending state in Firestore where an admin can approve
             or reject them. This simple feature mimics how real-world platforms
             maintain integrity.
           </p>
@@ -184,7 +184,7 @@ export default function Home() {
             While this project started as a portfolio piece, it’s something I
             believe could be genuinely useful to real dog parents. The MVP is
             now live and functional, and early testers have mentioned how clean
-            and intuitive the experience feels — especially compared to
+            and intuitive the experience feels - especially compared to
             searching through scattered Google reviews or Facebook threads.
           </p>
           <p>
@@ -212,7 +212,7 @@ export default function Home() {
           <p>
             This was the first time I built a full product end-to-end that
             included user authentication, a structured database, and API
-            integrations — and I learned a ton. If I were to continue developing
+            integrations - and I learned a ton. If I were to continue developing
             it, I’d love to:
           </p>
           <ul>
