@@ -17,10 +17,10 @@ export default function Home() {
           </p>
           <div className="details flex flex-col lg:flex-row lg:items-center gap-2 pt-4">
             <p className="text-md text-(--orange)">Frontend Development</p>
-            {/* <span className="hidden lg:block w-px h-4 my-auto bg-(--orange)/50"></span>
+            <span className="hidden lg:block w-px h-4 my-auto bg-(--orange)/50"></span>
 
             <a
-              href="https://www.ratemydogpark.com"
+              href="https://crm-platform-delta.vercel.app/dashboard"
               target="_blank"
               className="hover:underline hover:decoration-(--orange)"
             >
@@ -35,9 +35,9 @@ export default function Home() {
                     fillRule="evenodd"
                   />
                 </svg>
-                www.ratemydogpark.com
+                crm-platform-delta.vercel.app/dashboard
               </p>
-            </a> */}
+            </a>
           </div>
           <p className="text-md text-(--body) pt-4">
             This CRM dashboard was built to give sales reps a clear, focused
