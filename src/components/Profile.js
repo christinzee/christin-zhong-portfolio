@@ -15,11 +15,10 @@ export const Profile = () => {
             Christin Zhong
           </h1>
           <h2 className="text-lg text-(--pink) font-bold pt-4">
-            Full-Stack Developer
+            Customer Success Manager | Software Engineer
           </h2>
           <p className="text-md text-(--body) pt-4">
-            I build impactful, user-focused web experiences that prioritize
-            design, usability, and seamless functionality.
+            I craft intuitive web experiences and champion customer outcomes through thoughtful design, usability, and scalable solutions.
           </p>
           <div className="skills pt-8 lg:pt-14 space-y-3 pb-12 lg:pb-0">
             <div className="skills-frontend flex gap-3">

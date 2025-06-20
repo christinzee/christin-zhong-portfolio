@@ -6,23 +6,13 @@ export const About = () => {
     >
       <h1 className="text-sm text-(--header) font-bold lg:hidden">ABOUT</h1>
       <p className="text-md text-(--body)">
-        I’m all about creating intuitive, impactful web experiences. My journey
-        started in customer success, where I discovered how meaningful it is to
-        understand users' needs and deliver solutions that truly make a
-        difference. Now, I bring that same mindset to building thoughtful,
-        user-focused apps.
+        I’m all about about creating intuitive, impactful web experiences and making sure the people using them actually succeed. My journey started in customer success, where I saw firsthand how meaningful it is to truly understand users’ goals and challenges. Now, I bring that same empathy and problem-solving approach to software development.
       </p>
       <p className="text-md text-(--body)">
-        I love blending frontend creativity with backend logic, writing clean,
-        efficient code while making sure everything looks great and works
-        seamlessly. My favorite projects are the ones that solve real problems
-        and feel effortless to use.
+        I love blending frontend creativity with backend logic, writing clean, efficient code while ensuring everything looks and feels seamless. Whether I’m building features or helping users get the most out of them, I’m driven by the same goal: making things that work beautifully and add real value.
       </p>
       <p className="text-md text-(--body)">
-        When I’m not coding, you’ll probably find me reading, drawing, hitting
-        the gym, or exploring new spots with my partner and dog. I’m always
-        looking for new challenges and love building things that make life a
-        little easier—or just more fun!
+        When I’m not coding or collaborating with users, you’ll find me reading, drawing, hitting the gym, or exploring new spots with my dog. I’m always looking for new challenges and love building things that make life easier, smoother, or just more fun.
       </p>
     </section>
   );
